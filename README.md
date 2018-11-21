@@ -1,3 +1,5 @@
+Práctica 2
+
 El objetivo de la presente práctica será la construcción de un sencillo proyecto de desarrollo de software que satisfaga la siguiente especificación de Visión:
 Desarrolle una aplicación software que sea capaz de recrear el juego del ahorcado:
 
