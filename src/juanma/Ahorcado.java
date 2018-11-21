@@ -22,6 +22,7 @@ public class Ahorcado {
         // TODO code application logic here
 
         Scanner input = new Scanner(System.in);
+        
         Jugador p1 = new Jugador("Player 1");
         Jugador p2 = new Jugador("Player 2");
 
@@ -40,6 +41,7 @@ public class Ahorcado {
                 adivino=p1;
             }
 
+            //Console oculta = System.console();
             palabra = input.next();
 
             Partida nueva = new Partida(palabra,adivino);
@@ -51,7 +53,6 @@ public class Ahorcado {
                 do {
                     
 
-                    System.out.println(nueva.getAdivinar());
 
                     System.out.println(nueva.getAdivinar()+"\n");
 
